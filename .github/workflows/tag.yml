@@ -29,6 +29,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.1-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.1
+          game-dependencies: cloth-config
       - name: Publish-1.20.1-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -38,6 +39,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.1-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.1
+          game-dependencies: cloth-config
       - name: Publish-1.20.2-fabric-Curseforge
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -47,6 +49,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.2-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.2
+          game-dependencies: cloth-config
       - name: Publish-1.20.2-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -56,6 +59,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.2-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.2
+          game-dependencies: cloth-config
       - name: Publish-1.20.2-fabric-Curseforge
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -65,6 +69,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.2-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.2
+          game-dependencies: cloth-config
       - name: Publish-1.20.2-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -74,6 +79,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.2-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.2
+          game-dependencies: cloth-config
       - name: Publish-1.20.4-fabric-Curseforge
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -83,6 +89,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.4-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.4
+          game-dependencies: cloth-config
       - name: Publish-1.20.4-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -92,6 +99,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.4-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.4
+          game-dependencies: cloth-config
       - name: Publish-1.20.6-fabric-Curseforge
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -101,6 +109,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.6-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.6
+          game-dependencies: cloth-config
       - name: Publish-1.20.6-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -110,6 +119,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.20.6-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.20.6
+          game-dependencies: cloth-config
       - name: Publish-1.21-fabric-Curseforge
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -119,6 +129,7 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.21-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.21
+          game-dependencies: cloth-config
       - name: Publish-1.21-fabric-Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
@@ -128,3 +139,4 @@ jobs:
           name: Branded Logs v${{github.ref_name}}
           files: 'versions/1.21-fabric/build/libs/!(*-@(dev|sources|javadoc|all)).jar'
           game-versions: 1.21
+          game-dependencies: cloth-config
